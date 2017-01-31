@@ -1,6 +1,3 @@
-def main(args):
-    return 0
-
-if __name__ == '__main__':
-    import sys
-    sys.exit(main(sys.argv))
+largeur = input("saisir largeur :")
+longueur = input("saisir longueur :")
+print "la longueur saisie est",longueur,"m","la largeur est :", largeur,"m", "l'aire est de ", largeur*longueur, "m2"
