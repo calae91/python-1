@@ -3,9 +3,8 @@ import colors
 #si on a trop derreurs on sarrete 
 ch = raw_input(colors.warning("saisir chaine : "))
 ch = ch.upper()
+ch = ch.replace(" ", "")
 i = 0
-error = 0
-t =  ""
 while i < len(ch)/2 and ch[i] == ch[len(ch)-i-1]:
 		i+=1
 		
