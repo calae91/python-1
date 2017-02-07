@@ -56,4 +56,4 @@ def warning(text):
 
 
 def success(text):
-    return color(text, fg_green=True)
+    return color(text, bold=True, fg_green=True)

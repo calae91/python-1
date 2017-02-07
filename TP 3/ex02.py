@@ -4,7 +4,7 @@ ch = raw_input(colors.warning("saisir chaine : "))
 ch = ch.upper()
 i = 0
 transcrit =  ""
-while i < len(ch) - 1 :
+while i < len(ch) :
 	if ch[i] == 'T' :
 		transcrit += 'U'
 	else :
