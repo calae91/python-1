@@ -19,6 +19,6 @@ while i >= 0:
 	elif ch[i] == 'C' :
 		t += 'G'
 	else : 
-		t = '!' + t
+		t += ""
 	i -= 1
 print colors.success(t);
